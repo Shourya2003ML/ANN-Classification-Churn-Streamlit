@@ -24,7 +24,7 @@ st.title('Customer Churn Prediction')
 
 #user input
 geography = st.selectbox('Geography', one_hot_encoder_geo.categories_[0])
-gender = st.selectbox('Geography', label_encoder_gender.classes_)
+gender = st.selectbox('Gender', label_encoder_gender.classes_)
 age = st.slider('Age', 18, 92)
 balance = st.number_input('Balance')
 credit_score = st.number_input('Credit Score')
@@ -66,4 +66,5 @@ st.write(f'Churn Probability : {prediction_proba:.2f}')
 if prediction_proba > 0.5:
     st.write('The customer is likely to churn')
 else:
+
     st.write('The customer is not likely to churn')
