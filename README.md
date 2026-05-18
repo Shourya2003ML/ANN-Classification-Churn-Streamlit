@@ -15,19 +15,20 @@ Customer churn prediction is crucial for businesses to identify users who are li
 
 ## 📁 Repository Structure
 
-\`\`\`text
-├── Churn_Modelling.csv          # Raw dataset used for training
-├── app.py                       # Streamlit application for the web UI
-├── experiments.ipynb            # EDA, data preprocessing, and ANN training
-├── prediction.ipynb             # Notebook for testing model inference offline
-├── model.h5                     # Saved trained Artificial Neural Network model
-├── scaler.pkl                   # Saved StandardScaler object for feature scaling
-├── label_encoder_gender.pkl     # Saved LabelEncoder for the 'Gender' column
-├── one_hot_encoder_geo.pkl      # Saved OneHotEncoder for the 'Geography' column
-├── requirements.txt             # Required Python dependencies
-├── LICENSE                      # GPL-2.0 License
-└── README.md                    # Project documentation
-\`\`\`
+```text
+ANN-Classification-Churn-Streamlit/
+├── 📊 Churn_Modelling.csv          # Raw dataset used for training
+├── 🌐 app.py                       # Streamlit application for the web UI
+├── 📓 experiments.ipynb            # EDA, data preprocessing, and ANN training
+├── 📓 prediction.ipynb             # Notebook for testing model inference offline
+├── 🧠 model.h5                     # Saved trained Artificial Neural Network model
+├── ⚖️ scaler.pkl                   # Saved StandardScaler object for feature scaling
+├── 🔠 label_encoder_gender.pkl     # Saved LabelEncoder for the 'Gender' column
+├── 🗺️ one_hot_encoder_geo.pkl      # Saved OneHotEncoder for the 'Geography' column
+├── 📦 requirements.txt             # Required Python dependencies
+├── 📜 LICENSE                      # GPL-2.0 License
+└── 📖 README.md                    # Project documentation
+```
 
 ## ⚙️ Installation
 
